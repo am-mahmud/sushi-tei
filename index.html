@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Sushi Tei</title>
 </head>
+
 <body class="bricolage-grotesque-font px-8 md:px-16 mt-2 bg-[#E0DFD5]">
     <!-- Navbar section -->
     <section class="flex justify-between items-center">
@@ -46,11 +47,11 @@
 
      <!-- Secondary section -->
       <section class="bg-[#ED4F28] mt-10">
-        <div class="flex justify-between flex-col md:flex-row items-center gap-4">
+        <div class="flex flex-col justify-between md:flex-row items-center gap-4">
             <div>
-                <img class="h-[320px] md:h-[520px]" src="./assets/images/secondary-img.png" alt="">
+                <img class="h-[220px] md:h-[450px] w-auto" src="./assets/images/secondary-img.png" alt="">
             </div>
-            <div>
+            <div class="px-10">
                 <h1 class="text-white text-3xl md:text-5xl font-bold">From Japan to,<br>Bangladesh</h1>
                 <p class="text-white text-sm md:text-base my-5">Bringing authentic Japanese flavors straight<br>to your table, crafted with the freshest ingredients and timeless traditions.</p>
                 <button class="bg-[#E0DFD5] text-[#ED4F28] px-5 py-2 rounded-sm font-semibold mb-4">Menu</button>
@@ -58,7 +59,7 @@
         </div>
       </section>
 
-      <!-- Menu -->
+    <!-- Menu -->
        <section class="mt-10">
         <!-- Menu tag -->
         <div>
@@ -122,5 +123,84 @@
         </div>
        </section>
 
+    <!-- Book a table -->
+        <section class="mt-10">
+            <!-- Book a table tag -->
+             <div>
+                <h1 class="font-bold text-3xl md:text-5xl mb-6">Book A Table</h1>
+             </div>
+             <div class="flex justify-center items-center">
+                <form action="" class="flex flex-col gap-4">
+                    <div>
+                        <input type="text" placeholder="Full Name" class="pl-1 border-1 w-96 h-10 rounded-sm">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" class="pl-1 border-1 w-96 h-10 rounded-sm">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Phone Number" id="phone-number" class="pl-1 border-1 w-96 h-10 rounded-sm">
+                    </div>
+                    <div>
+                        <input type="number" name="" id="" placeholder="Total Person" class="pl-1 border-1 w-96 h-10 rounded-sm">
+                    </div>
+                    <div>
+                        <button class="bg-[#ED4F28] text-[#E0DFD5] px-5 py-2 rounded-sm font-semibold mb-4">Menu</button>
+                    </div>
+                    
+                </form>
+             </div>
+        </section>
+
+    <!-- Footer section -->
+        <section class="bg-[#ED4F28] mt-10 py-44">
+            <div class="text-[#E0DFD5] flex justify-evenly">
+                <div>
+                    <div>
+                        <h1 class="text-xl font-semibold">About</h1>
+                    </div>
+                    <div>
+                        <p class="text-sm my-1">The Sushi Tei</p>
+                    </div>
+                    <div>
+                        <p class="text-sm">Opening Hour</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1 class="text-xl font-semibold">Menu</h1>
+                    </div>
+                    <div>
+                        <p class="text-sm my-1">Lunch Menu</p>
+                    </div>
+                    <div>
+                        <p class="text-sm">Dinner Menu</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1 class="text-xl font-semibold">Others</h1>
+                    </div>
+                    <div>
+                        <p class="text-sm my-1">Contact</p>
+                    </div>
+                    <div>
+                        <p class="text-sm">Work with us</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 flex justify-center items-center">
+                <hr class="w-[60%] text-[#E0DFD5]">
+            </div>
+            <div class="flex mt-2 items-center justify-evenly">
+                <div>
+                    <p class="text-[#E0DFD5] text-xs mr-48">@ 2025 The Sushi Tei</p>
+                </div>
+                <div class="ml-48">
+                    <i class="fa-brands fa-instagram text-[#E0DFD5] text-xs"></i>
+                    <i class="fa-brands fa-youtube text-[#E0DFD5] text-xs"></i>
+                </div>
+            </div>
+        </section>
+         
 </body>
 </html>
