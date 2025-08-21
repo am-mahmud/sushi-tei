@@ -1,4 +1,5 @@
-document.getElementById('btn-submit').addEventListener('click', validEmailAddress, validPhoneNumber);
+document.getElementById('btn-submit').addEventListener('click', validEmailAddress);
+document.getElementById('btn-submit').addEventListener('click', validEmailAddress);
 
 // Email validation 
 
